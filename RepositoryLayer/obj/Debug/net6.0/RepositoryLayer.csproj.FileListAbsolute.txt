@@ -1,0 +1,17 @@
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.deps.json
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.runtimeconfig.json
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.dll
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.dll
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\refint\RepositoryLayer.dll
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.pdb
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.genruntimeconfig.cache
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\ref\RepositoryLayer.dll
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\bin\Debug\net6.0\CommonLayer.dll
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\bin\Debug\net6.0\CommonLayer.pdb
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
