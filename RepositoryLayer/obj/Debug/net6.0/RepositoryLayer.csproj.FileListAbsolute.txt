@@ -15,3 +15,4 @@ C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\bin\Debug\net6.0\CommonLayer.dll
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\bin\Debug\net6.0\CommonLayer.pdb
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\Reposito.A0A61804.Up2Date
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\RepositoryLayer\obj\Debug\net6.0\RepositoryLayer.sourcelink.json

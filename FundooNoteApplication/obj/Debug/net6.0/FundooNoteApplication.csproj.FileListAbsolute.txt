@@ -89,3 +89,4 @@ C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\FundooNoteApplicatio
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\FundooNoteApplication\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\FundooNoteApplication\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\FundooNoteApplication\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\FundooNoteApplication\obj\Debug\net6.0\FundooNoteApplication.sourcelink.json

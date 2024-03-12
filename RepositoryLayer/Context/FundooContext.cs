@@ -16,6 +16,8 @@ namespace RepositoryLayer.Context
 
         public DbSet<Products> TProducts { get; set; }
 
+        public DbSet<UserNotesEntity> UserNotes {  get; set; }
+
         
     }
 }
