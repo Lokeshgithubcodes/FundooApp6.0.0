@@ -58,6 +58,9 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUserNotesBusiness, UserNotesBusiness>();
 builder.Services.AddScoped<IUserNotesRepository, UserNotesRepository>();
 
+builder.Services.AddScoped<ILabelBusiness, LabelBusiness>();
+builder.Services.AddScoped<ILabelRepository, LabelRepository>();
+
 //jwt token generatator registraion code step-1
 
 

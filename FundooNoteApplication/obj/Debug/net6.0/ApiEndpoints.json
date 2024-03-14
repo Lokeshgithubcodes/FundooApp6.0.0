@@ -1,5 +1,73 @@
 [
   {
+    "ContainingType": "FundooNoteApplication.Controllers.LabelController",
+    "Method": "AddLable",
+    "RelativePath": "api/Label/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "labelName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.LabelController",
+    "Method": "DeleteLabel",
+    "RelativePath": "api/Label/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "labelId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.LabelController",
+    "Method": "getAllLabels",
+    "RelativePath": "api/Label/GetAllLabels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.LabelController",
+    "Method": "UpdateLable",
+    "RelativePath": "api/Label/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "labelId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "labelname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FundooNoteApplication.Controllers.NotesController",
     "Method": "AddColor",
     "RelativePath": "api/Notes/addColorToNote",

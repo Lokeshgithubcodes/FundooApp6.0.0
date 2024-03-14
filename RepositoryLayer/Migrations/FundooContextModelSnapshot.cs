@@ -75,6 +75,33 @@ namespace RepositoryLayer.Migrations
                     b.ToTable("UserTable");
                 });
 
+            modelBuilder.Entity("RepositoryLayer.Entity.UserLabelEntity", b =>
+                {
+                    b.Property<long>("LabelId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("LabelId"), 1L, 1);
+
+                    b.Property<string>("LabelName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("NoteId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("LabelId");
+
+                    b.HasIndex("NoteId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserLabel");
+                });
+
             modelBuilder.Entity("RepositoryLayer.Entity.UserNotesEntity", b =>
                 {
                     b.Property<long>("NoteId")
@@ -121,6 +148,25 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserNotes");
+                });
+
+            modelBuilder.Entity("RepositoryLayer.Entity.UserLabelEntity", b =>
+                {
+                    b.HasOne("RepositoryLayer.Entity.UserNotesEntity", "UserNotes")
+                        .WithMany()
+                        .HasForeignKey("NoteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RepositoryLayer.Entity.UserEntity", "UserTable")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("UserNotes");
+
+                    b.Navigation("UserTable");
                 });
 
             modelBuilder.Entity("RepositoryLayer.Entity.UserNotesEntity", b =>
