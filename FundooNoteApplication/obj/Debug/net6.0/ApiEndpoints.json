@@ -1,5 +1,169 @@
 [
   {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "AddColor",
+    "RelativePath": "api/Notes/addColorToNote",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "color",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "ArchiveNote",
+    "RelativePath": "api/Notes/archieveNote",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "UserNoteCreation",
+    "RelativePath": "api/Notes/CreateNotes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userNotes",
+        "Type": "CommonLayer.Models.UserNotesModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "GetAllNodes",
+    "RelativePath": "api/Notes/GetAllNodes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "GetUserNotes",
+    "RelativePath": "api/Notes/GetUserNotesById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "GetNoteById",
+    "RelativePath": "api/Notes/NoteById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "DeleteUserNode",
+    "RelativePath": "api/Notes/NoteDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "TogglePin",
+    "RelativePath": "api/Notes/Pinned",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteid",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "TrashNote",
+    "RelativePath": "api/Notes/trashNote",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "UpdateUserNotes",
+    "RelativePath": "api/Notes/UpdateNotes",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "noteModel",
+        "Type": "CommonLayer.Models.NoteUpdateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FundooNoteApplication.Controllers.ProductController",
     "Method": "GetProductByName",
     "RelativePath": "api/Product/Name",
@@ -155,6 +319,22 @@
   },
   {
     "ContainingType": "FundooNoteApplication.Controllers.UserController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/User/resetPassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reset",
+        "Type": "CommonLayer.Models.ResetPasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.UserController",
     "Method": "CreateorUpdateUser",
     "RelativePath": "api/User/Update user By Id",
     "HttpMethod": "PUT",
@@ -185,27 +365,6 @@
       {
         "Name": "registerModel",
         "Type": "CommonLayer.Models.RegisterModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FundooNoteApplication.Controllers.UserController",
-    "Method": "UpdatePassword",
-    "RelativePath": "api/User/UpdatePassword",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "reset",
-        "Type": "CommonLayer.Models.ResetPasswordModel",
         "IsRequired": true
       }
     ],

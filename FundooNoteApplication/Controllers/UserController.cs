@@ -206,10 +206,11 @@ namespace FundooNoteApplication.Controllers
             }
         }
 
-
+        [Authorize]
         [HttpPut("resetPassword")]
-        public IActionResult UpdatePassword(string Email, ResetPasswordModel reset)
+        public IActionResult UpdatePassword(ResetPasswordModel reset)
         {
+            string Email=User.Claims.FirstOrDefault(a=>a.Type== "Email").Value;
             var res = userBusiness.ResetPassword(Email, reset);
             if (res != null)
             {

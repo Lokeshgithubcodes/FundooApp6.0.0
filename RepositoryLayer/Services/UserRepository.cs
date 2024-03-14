@@ -108,7 +108,7 @@ namespace RepositoryLayer.Services
             var token = new JwtSecurityToken(configuration["Jwt:Issuer"],
                 configuration["Jwt:Audience"],
                 claims,
-                expires: DateTime.Now.AddHours(5),
+                expires: DateTime.Now.AddMonths(1),
                 signingCredentials: credentials);
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
@@ -279,6 +279,7 @@ namespace RepositoryLayer.Services
 
         }
 
+       
 
     }
 

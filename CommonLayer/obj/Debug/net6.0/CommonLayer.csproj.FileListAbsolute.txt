@@ -9,3 +9,4 @@ C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\CommonLayer\obj\Debu
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\CommonLayer\obj\Debug\net6.0\refint\CommonLayer.dll
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.pdb
 C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\CommonLayer\obj\Debug\net6.0\ref\CommonLayer.dll
+C:\Users\Ramisettylokesh\source\repos\FundooNoteApplication\CommonLayer\obj\Debug\net6.0\CommonLayer.sourcelink.json
