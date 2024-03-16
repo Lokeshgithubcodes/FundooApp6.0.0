@@ -1,5 +1,73 @@
 [
   {
+    "ContainingType": "FundooNoteApplication.Controllers.CollaboratorController",
+    "Method": "AddCollaborator",
+    "RelativePath": "api/Collaborator/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "collaboratorEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.CollaboratorController",
+    "Method": "DeleteCollaborator",
+    "RelativePath": "api/Collaborator/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "collaboratorId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.CollaboratorController",
+    "Method": "GetCollaboratorsByNoteId",
+    "RelativePath": "api/Collaborator/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.CollaboratorController",
+    "Method": "GetCollaborators",
+    "RelativePath": "api/Collaborator/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FundooNoteApplication.Controllers.LabelController",
     "Method": "AddLable",
     "RelativePath": "api/Label/Create",
@@ -90,6 +158,48 @@
   },
   {
     "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "ImageAdd",
+    "RelativePath": "api/Notes/AddImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "imageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "AddReminder",
+    "RelativePath": "api/Notes/AddReminder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noteId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "reminder",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
     "Method": "ArchiveNote",
     "RelativePath": "api/Notes/archieveNote",
     "HttpMethod": "PUT",
@@ -128,6 +238,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "GetBy1stLetter",
+    "RelativePath": "api/Notes/GetBy1stLetter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -192,6 +318,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "GetAllNotesUsiingRedisCache",
+    "RelativePath": "api/Notes/Redis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -347,6 +483,22 @@
     "Parameters": [
       {
         "Name": "login",
+        "Type": "CommonLayer.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.UserController",
+    "Method": "LoginMethod",
+    "RelativePath": "api/User/LoginMethod",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
         "Type": "CommonLayer.Models.LoginModel",
         "IsRequired": true
       }

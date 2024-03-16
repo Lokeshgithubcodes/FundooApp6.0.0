@@ -22,6 +22,33 @@ namespace RepositoryLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("RepositoryLayer.Entity.Collaborator", b =>
+                {
+                    b.Property<long>("CollaboratorsId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("CollaboratorsId"), 1L, 1);
+
+                    b.Property<string>("CollaboratorsEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("NoteId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("UserId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("CollaboratorsId");
+
+                    b.HasIndex("NoteId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TCollaborator");
+                });
+
             modelBuilder.Entity("RepositoryLayer.Entity.Products", b =>
                 {
                     b.Property<int>("product_id")
@@ -121,6 +148,10 @@ namespace RepositoryLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsArchive")
                         .HasColumnType("bit");
 
@@ -148,6 +179,25 @@ namespace RepositoryLayer.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserNotes");
+                });
+
+            modelBuilder.Entity("RepositoryLayer.Entity.Collaborator", b =>
+                {
+                    b.HasOne("RepositoryLayer.Entity.UserLabelEntity", "UserNotes")
+                        .WithMany()
+                        .HasForeignKey("NoteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("RepositoryLayer.Entity.UserEntity", "UserTable")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("UserNotes");
+
+                    b.Navigation("UserTable");
                 });
 
             modelBuilder.Entity("RepositoryLayer.Entity.UserLabelEntity", b =>

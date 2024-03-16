@@ -1,4 +1,6 @@
 ﻿using CommonLayer.Models;
+using MassTransit.Initializers.Variables;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Context;
 using RepositoryLayer.Entity;
@@ -8,8 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 
 namespace RepositoryLayer.Services
 {
@@ -203,6 +208,89 @@ namespace RepositoryLayer.Services
             }
         }
 
+
+        public UserNotesEntity AddRemainder(long userId, long noteId, DateTime reminder)
+        {
+            var note = fundooContext.UserNotes.Where(x => x.UserId == userId && x.NoteId == noteId).FirstOrDefault();
+            if (note == null)
+            {
+                return null;
+            }
+            else
+            {
+
+                if (reminder > DateTime.Now)
+                {
+                    note.Remainder = reminder;
+                    fundooContext.Entry(note).State = EntityState.Modified;
+                    fundooContext.SaveChanges();
+                    return note;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
+
+        public UserNotesEntity AddImage(long userId, long noteId, IFormFile Image)
+        {
+            try
+            {
+
+
+                var note = fundooContext.UserNotes.Where(x => x.UserId == userId && x.NoteId == noteId).FirstOrDefault();
+
+                if (note == null)
+                {
+                    return null;
+                }
+                else
+                {
+                    Account account = new Account(
+                                                   "dwvr6sy4h",
+                                                    "917726717342863",
+                                                       "sQW87yt8T4uswwRknaBhOIIcXGE");
+
+                    Cloudinary cloudinary = new Cloudinary(account);
+
+
+                    var uploadParameters = new ImageUploadParams()
+                    {
+                        File = new FileDescription(Image.FileName, Image.OpenReadStream()),
+                        PublicId = note.Title
+                    };
+                    var uploadResult = cloudinary.Upload(uploadParameters);
+                    string ImagePath = uploadResult.Url.ToString();
+
+
+                    note.Image = ImagePath;
+                    fundooContext.Entry(note).State = EntityState.Modified;
+                    fundooContext.SaveChanges();
+
+                    return note;
+
+                }
+            }
+            catch (Exception )
+            {
+                throw;
+            }
+
+        }
+
+        public List<UserNotesEntity> GetNotesBy1stLetter(string letter)
+        {
+            var let=fundooContext.UserNotes.Where(x=>x.Title.StartsWith(letter)).ToList();
+            if (let != null)
+            {
+                return let;
+            }
+            else
+            {
+                return null;
+            }
+        }
 
     }
 }

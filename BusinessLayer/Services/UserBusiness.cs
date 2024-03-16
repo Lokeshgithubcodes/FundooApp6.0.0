@@ -80,5 +80,10 @@ namespace BusinessLayer.Services
         {
             return userRepo.ResetPassword(Email, resetPasswordModel);
         }
+
+        public TokenModel LoginMethod(LoginModel model)
+        {
+            return userRepo.LoginMethod(model);
+        }
     }
 }

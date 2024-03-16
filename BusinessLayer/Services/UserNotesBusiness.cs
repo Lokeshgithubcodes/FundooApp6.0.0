@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Interfaces;
 using CommonLayer.Models;
+using Microsoft.AspNetCore.Http;
 using RepositoryLayer.Entity;
 using RepositoryLayer.Interfaces;
 using System;
@@ -67,6 +68,21 @@ namespace BusinessLayer.Services
         public UserNotesEntity AddNoteColor(long userId, long noteId, string color)
         {
             return _notesrepo.AddNoteColor(userId, noteId, color);
+        }
+
+        public UserNotesEntity AddRemainder(long userId, long noteId, DateTime reminder)
+        {
+            return _notesrepo.AddRemainder(userId, noteId, reminder);
+        }
+
+        public UserNotesEntity AddImage(long userId, long noteId, IFormFile Image)
+        {
+            return _notesrepo.AddImage(userId, noteId, Image);
+        }
+
+        public List<UserNotesEntity> GetNotesBy1stLetter(string letter)
+        {
+            return _notesrepo.GetNotesBy1stLetter(letter);
         }
     }
 }

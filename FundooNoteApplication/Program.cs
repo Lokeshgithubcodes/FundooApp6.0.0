@@ -12,11 +12,28 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+
+// Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+//Redis cache
+builder.Services.AddStackExchangeRedisCache(options => { options.Configuration = builder.Configuration["RedisCacheUrl"]; });
+
+
+builder.Services.AddSession(x =>
+{
+    x.IdleTimeout = TimeSpan.FromMinutes(1);
+    x.Cookie.HttpOnly = true;
+    x.Cookie.IsEssential = true;
+});
+
 builder.Services.AddSwaggerGen(
     option =>
     {
@@ -46,6 +63,7 @@ builder.Services.AddSwaggerGen(
     });
     });
 
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddDbContext<FundooContext>(opts => opts.UseSqlServer(builder.Configuration["ConnectionString:FundooDBp"]));
 
 
@@ -60,6 +78,9 @@ builder.Services.AddScoped<IUserNotesRepository, UserNotesRepository>();
 
 builder.Services.AddScoped<ILabelBusiness, LabelBusiness>();
 builder.Services.AddScoped<ILabelRepository, LabelRepository>();
+
+builder.Services.AddScoped<ICollaboratorBusiness, CollaboratorBusiness>();
+builder.Services.AddScoped<ICollaboratorRepository, CollaboratorRepository>();
 
 //jwt token generatator registraion code step-1
 
@@ -115,6 +136,7 @@ if (app.Environment.IsDevelopment())
 }
 app.UseAuthentication();
 app.UseHttpsRedirection();
+app.UseSession();
 
 app.UseAuthorization();
 

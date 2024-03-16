@@ -4,7 +4,13 @@ using CommonLayer.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
+using RepositoryLayer.Context;
 using RepositoryLayer.Entity;
+using System.Text;
+using Microsoft.Extensions.Caching.StackExchangeRedis;
+
 
 namespace FundooNoteApplication.Controllers
 {
@@ -13,22 +19,28 @@ namespace FundooNoteApplication.Controllers
     public class NotesController : ControllerBase
     {
         private readonly IUserNotesBusiness _userNotes;
+        private readonly IDistributedCache _distributedCache;
+        private readonly FundooContext _fundooContext;
 
-        public NotesController(IUserNotesBusiness userNotes)
+        public NotesController(IUserNotesBusiness userNotes, IDistributedCache distributedCache, FundooContext _fundooContext)
         {
            this. _userNotes = userNotes;
+            this. _distributedCache = distributedCache;
+            this._fundooContext = _fundooContext;
         }
 
         [HttpPost]
         [Route("CreateNotes")]
 
-        [Authorize]
+       // [Authorize]
 
         public IActionResult UserNoteCreation(UserNotesModel userNotes)
         {
             try
             {
-                long userId = long.Parse(User.Claims.Where(x => x.Type == "UserId").FirstOrDefault().Value);
+                // long userId = long.Parse(User.Claims.Where(x => x.Type == "UserId").FirstOrDefault().Value);
+                byte[] userbyte = HttpContext.Session.Get("UserId");
+                long userId=BitConverter.ToInt64(userbyte, 0);
                 var result = _userNotes.CreateUserNotes(userNotes, userId);
                 if (result != null)
                 {
@@ -247,5 +259,85 @@ namespace FundooNoteApplication.Controllers
             }
 
         }
+
+        [Authorize]
+        [HttpPost]
+        [Route("AddReminder")]
+        public IActionResult AddReminder(long noteId, DateTime reminder)
+        {
+            var userid = long.Parse(User.Claims.Where(x => x.Type == "UserId").FirstOrDefault().Value);
+            var result = _userNotes.AddRemainder(userid, noteId, reminder);
+            if (result != null)
+            {
+                return Ok(new ResponseModel<UserNotesEntity>() { Success = true, Message = "reminder added..", Data = result });
+            }
+            else
+            {
+                return BadRequest(new ResponseModel<UserNotesEntity>() { Success = false, Message = "Some thing went wrong..!", Data = result });
+            }
+        }
+
+        [Authorize]
+        [HttpPost]
+        [Route("AddImage")]
+        public IActionResult ImageAdd(int noteId, IFormFile imageUrl)
+        {
+            var userid = long.Parse(User.Claims.Where(x => x.Type == "UserId").FirstOrDefault().Value);
+            var result = _userNotes.AddImage(userid, noteId, imageUrl);
+            if (result != null)
+            {
+                return Ok(new { Success = true, Message = "Image addedsucessfully..", Data = result });
+            }
+            else
+            {
+                return BadRequest(new { Success = false, Message = "Some thing went wrong..!", Data = result });
+            }
+
+        }
+
+        [Authorize]
+        [HttpGet]
+        [Route("Redis")]
+        public async Task<IActionResult> GetAllNotesUsiingRedisCache()
+        {
+            var cachKey = "NotesList";
+            string serializedNotedList;
+            
+            var NotesList = new List<UserNotesEntity>();
+            byte[] redisNotesList = await _distributedCache.GetAsync(cachKey);
+            if (redisNotesList != null)
+            {
+                serializedNotedList = Encoding.UTF8.GetString(redisNotesList);
+                NotesList = JsonConvert.DeserializeObject<List<UserNotesEntity>>(serializedNotedList);
+
+            }
+            else
+            {
+                NotesList = _fundooContext.UserNotes.ToList();
+                serializedNotedList = JsonConvert.SerializeObject(NotesList);
+                redisNotesList = Encoding.UTF8.GetBytes(serializedNotedList);
+                var options = new DistributedCacheEntryOptions().SetAbsoluteExpiration(DateTime.Now.AddMinutes(10)).SetSlidingExpiration(TimeSpan.FromMinutes(2));
+               await _distributedCache.SetAsync(cachKey, redisNotesList, options);
+            }
+            return Ok(NotesList);
+        }
+
+        [Authorize]
+        [HttpGet]
+        [Route("GetBy1stLetter")]
+
+        public IActionResult GetBy1stLetter(string name)
+        {
+            var res=_userNotes.GetNotesBy1stLetter(name);
+            if (res != null)
+            {
+                return Ok(res);
+            }
+            else
+            {
+                return BadRequest("not found");
+            }
+        }
+
     }
 }

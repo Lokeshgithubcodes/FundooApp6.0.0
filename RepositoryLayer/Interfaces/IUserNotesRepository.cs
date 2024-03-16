@@ -1,4 +1,5 @@
 ﻿using CommonLayer.Models;
+using Microsoft.AspNetCore.Http;
 using RepositoryLayer.Entity;
 using System;
 using System.Collections.Generic;
@@ -29,5 +30,12 @@ namespace RepositoryLayer.Interfaces
         public UserNotesEntity TogglePin(long userid, long noteid);
 
         public UserNotesEntity AddNoteColor(long userId, long noteId, string color);
+
+        public UserNotesEntity AddRemainder(long userId, long noteId, DateTime reminder);
+
+        public UserNotesEntity AddImage(long userId, long noteId, IFormFile Image);
+
+        public List<UserNotesEntity> GetNotesBy1stLetter(string letter);
+
     }
 }

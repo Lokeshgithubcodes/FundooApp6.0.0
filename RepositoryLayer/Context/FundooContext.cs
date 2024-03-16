@@ -19,5 +19,7 @@ namespace RepositoryLayer.Context
         public DbSet<UserNotesEntity> UserNotes {  get; set; }
 
         public DbSet<UserLabelEntity> UserLabel { get; set; }
+
+        public DbSet<Collaborator> TCollaborator { get; set; }
     }
 }

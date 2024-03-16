@@ -14,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using System.Diagnostics;
 using MassTransit;
 using RepositoryLayer.Migrations;
+using Microsoft.Extensions.Logging;
 
 namespace RepositoryLayer.Services
 {
@@ -24,19 +25,22 @@ namespace RepositoryLayer.Services
 
         private readonly IConfiguration configuration;
 
+       private readonly ILogger<UserRepository> logger;
 
 
 
-        public UserRepository(FundooContext fundooContext, IConfiguration configuration)
+        public UserRepository(FundooContext fundooContext, IConfiguration configuration, ILogger<UserRepository> logger)
         {
             this.fundooContext = fundooContext;
             this.configuration = configuration;
+            this.logger = logger;
         }
 
 
 
         public UserEntity UserRegister(RegisterModel register)
         {
+            logger.LogError("Registration Error");
             UserEntity entity = new UserEntity();
             entity.FirstName = register.FirstName;
             entity.LastName = register.LastName;
@@ -142,6 +146,8 @@ namespace RepositoryLayer.Services
 
         public UserEntity GetByName(string UserName)
         {
+
+            logger.LogError("Invalid Name");
             var UserDetails=fundooContext.UserTable.FirstOrDefault(x=>x.FirstName==UserName);
             if(UserDetails != null)
             {
@@ -279,7 +285,29 @@ namespace RepositoryLayer.Services
 
         }
 
-       
+        public TokenModel LoginMethod(LoginModel model)
+        {
+            var user = fundooContext.UserTable.FirstOrDefault(s => s.Email == model.Email);
+            if (user != null)
+            {
+                //model.Password= EncodePassword(user.Password);
+                TokenModel tk = new TokenModel();
+                if (model.Password == DecryptPassword(user.Password) && model.Email == user.Email)
+                {
+                    tk.Email = user.Email;
+                    tk.First_name = user.FirstName;
+                    tk.Last_Name = user.LastName;
+                    tk.Token = GenerateToken(user.Email, user.UserId);
+                    tk.Id = user.UserId;
+                    return tk;
+
+                }
+                return null;
+
+            }
+            return null;
+        }
+
 
     }
 

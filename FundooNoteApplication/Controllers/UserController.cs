@@ -223,7 +223,23 @@ namespace FundooNoteApplication.Controllers
             }
         }
 
+        [HttpPost("LoginMethod")]
+        public IActionResult LoginMethod(LoginModel model)
+        {
+            var login = userBusiness.LoginMethod(model);
+            if (login != null)
+            {
+                long UserId=login.Id;
+                byte[] userbyte=BitConverter.GetBytes(UserId);
+                HttpContext.Session.Set("UserId", userbyte);
+                return Ok(new { success = true, message = "User Login Successful", Data = login });
+            }
+            else
+            {
+                return BadRequest(new { success = false, message = "User Login Unsuccessful" });
+            }
 
+        }
 
     }
 }
