@@ -22,6 +22,5 @@ namespace RepositoryLayer.Entity
         public string Password { get; set; }
 
 
-
     }
 }

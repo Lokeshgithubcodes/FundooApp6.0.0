@@ -292,5 +292,46 @@ namespace RepositoryLayer.Services
             }
         }
 
+        public UserNotesEntity GetNoteByTitle(string title)
+        {
+            var tit=fundooContext.UserNotes.FirstOrDefault(x=>x.Title == title);
+
+            if(tit != null)
+            {
+                return tit;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public UserNotesEntity GetNoteByBody(string body)
+        {
+            var bod=fundooContext.UserNotes.FirstOrDefault(x=>x.Description== body);
+
+            if(bod != null)
+            {
+                return bod;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public long GetCount(long userid)
+        {
+            var cont = fundooContext.UserNotes.Where(x => x.UserId == userid).Count();
+            if (cont != 0)
+            {
+                return cont;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
     }
 }

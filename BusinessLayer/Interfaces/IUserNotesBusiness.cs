@@ -36,5 +36,11 @@ namespace BusinessLayer.Interfaces
         public UserNotesEntity AddImage(long userId, long noteId, IFormFile Image);
 
         public List<UserNotesEntity> GetNotesBy1stLetter(string letter);
+
+        public UserNotesEntity GetNoteByTitle(string title);
+
+        public UserNotesEntity GetNoteByBody(string body);
+
+        public long GetCount(long userid);
     }
 }

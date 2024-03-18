@@ -37,5 +37,11 @@ namespace RepositoryLayer.Interfaces
 
         public List<UserNotesEntity> GetNotesBy1stLetter(string letter);
 
+        public UserNotesEntity GetNoteByTitle(string title);
+
+        public UserNotesEntity GetNoteByBody(string body);
+
+        public long GetCount(long userid);
+
     }
 }

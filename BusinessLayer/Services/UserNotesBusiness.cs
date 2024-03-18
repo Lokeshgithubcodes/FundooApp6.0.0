@@ -84,5 +84,20 @@ namespace BusinessLayer.Services
         {
             return _notesrepo.GetNotesBy1stLetter(letter);
         }
+
+        public UserNotesEntity GetNoteByTitle(string title)
+        {
+            return _notesrepo.GetNoteByTitle(title);
+        }
+
+        public UserNotesEntity GetNoteByBody(string body)
+        {
+            return _notesrepo.GetNoteByBody(body);
+        }
+
+        public long GetCount(long userid)
+        {
+            return _notesrepo.GetCount(userid);
+        }
     }
 }

@@ -339,5 +339,55 @@ namespace FundooNoteApplication.Controllers
             }
         }
 
+        [Authorize]
+        [HttpGet]
+        [Route("GetByTitle")]
+
+        public IActionResult GetByTitle(string title)
+        {
+            var res=_userNotes.GetNoteByTitle(title);
+            if (res != null)
+            {
+                return Ok(res);
+            }
+            else
+            {
+                return BadRequest("Title not found");
+            }
+        }
+
+        [Authorize]
+        [HttpGet]
+        [Route("GetByBody")]
+
+        public IActionResult GetByBody(string body)
+        {
+            var res=_userNotes.GetNoteByBody(body);
+            if (res != null)
+            {
+                return Ok(res);
+            }
+            else
+            {
+                return BadRequest("Body not found");
+            }
+        }
+
+        [HttpGet]
+        [Route("Count")]
+
+        public IActionResult GetCount(long userid)
+        {
+            var res= _userNotes.GetCount(userid);
+            if (res != 0)
+            {
+                return Ok(res);
+            }
+            else
+            {
+                return BadRequest("Not Found");
+            }
+            
+        }
     }
 }

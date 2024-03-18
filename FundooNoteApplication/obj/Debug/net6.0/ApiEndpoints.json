@@ -216,6 +216,22 @@
   },
   {
     "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "GetCount",
+    "RelativePath": "api/Notes/Count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
     "Method": "UserNoteCreation",
     "RelativePath": "api/Notes/CreateNotes",
     "HttpMethod": "POST",
@@ -250,6 +266,38 @@
     "Parameters": [
       {
         "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "GetByBody",
+    "RelativePath": "api/Notes/GetByBody",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FundooNoteApplication.Controllers.NotesController",
+    "Method": "GetByTitle",
+    "RelativePath": "api/Notes/GetByTitle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
         "Type": "System.String",
         "IsRequired": false
       }
