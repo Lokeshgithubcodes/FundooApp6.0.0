@@ -125,7 +125,7 @@ namespace RepositoryLayer.Services
             return users;
         }
 
-        public UserEntity UpdateUser(long  id, RegisterModel updateproperties)
+        public UserEntity UpdateUser(long  id, UserUpdateModel updateproperties)
         {
             
             var existingUser = fundooContext.UserTable.Find(id);
@@ -134,7 +134,6 @@ namespace RepositoryLayer.Services
                 existingUser.FirstName = updateproperties.FirstName ?? existingUser.FirstName;
                 existingUser.LastName= updateproperties.LastName ?? existingUser.LastName;
                 existingUser.Email= updateproperties.Email ?? existingUser.Email;
-                existingUser.Password=EncryptPassword(updateproperties.Password) ?? existingUser.Password;
                 fundooContext.SaveChanges();
                 return existingUser;
             }

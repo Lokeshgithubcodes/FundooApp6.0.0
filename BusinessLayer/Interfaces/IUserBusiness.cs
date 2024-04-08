@@ -17,7 +17,7 @@ namespace BusinessLayer.Interfaces
         
         public List<UserEntity> GetAllUsers();
 
-        public UserEntity UpdateUser(long id, RegisterModel updateproperties);
+        public UserEntity UpdateUser(long id, UserUpdateModel updateproperties);
 
         public UserEntity GetByName(string UserName);
 
@@ -34,8 +34,7 @@ namespace BusinessLayer.Interfaces
         public bool ResetPassword(string Email, ResetPasswordModel resetPasswordModel);
 
         public TokenModel LoginMethod(LoginModel model);
-
-
+        
     }
 }
 

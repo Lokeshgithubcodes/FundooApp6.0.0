@@ -17,7 +17,7 @@ namespace RepositoryLayer.Interfaces
 
         public List<UserEntity> GetAllUsers();
 
-        public UserEntity UpdateUser(long id, RegisterModel updateproperties);
+        public UserEntity UpdateUser(long id, UserUpdateModel updateproperties);
         public UserEntity GetByName(string UserName);
 
         public UserEntity GetUserById(long id);

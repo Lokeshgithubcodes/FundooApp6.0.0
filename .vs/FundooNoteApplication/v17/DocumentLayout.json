@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\commonlayer\\models\\userupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\userupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\commonlayer\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|solutionrelative:fundoonoteapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F55CB9-F032-4280-BB94-9A14E9FE5E12}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\businesslayer\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15F55CB9-F032-4280-BB94-9A14E9FE5E12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15F55CB9-F032-4280-BB94-9A14E9FE5E12}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\businesslayer\\services\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15F55CB9-F032-4280-BB94-9A14E9FE5E12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|solutionrelative:fundoonoteapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|solutionrelative:fundoonoteapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\services\\usernotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\usernotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\entity\\usernotesentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\usernotesentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\entity\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,48 +71,16 @@
       "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\iusernotesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\context\\fundoocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\context\\fundoocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|solutionrelative:fundoonoteapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|solutionrelative:fundoonoteapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\commonlayer\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15F55CB9-F032-4280-BB94-9A14E9FE5E12}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\businesslayer\\services\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15F55CB9-F032-4280-BB94-9A14E9FE5E12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\userbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\entity\\usernotesentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\usernotesentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|solutionrelative:fundoonoteapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\controllers\\collaboratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|solutionrelative:fundoonoteapplication\\controllers\\collaboratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15F55CB9-F032-4280-BB94-9A14E9FE5E12}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\businesslayer\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15F55CB9-F032-4280-BB94-9A14E9FE5E12}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interfaces\\iuserbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\commonlayer\\models\\labelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,20 +91,12 @@
       "RelativeMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\commonlayer\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|solutionrelative:commonlayer\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\services\\labelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\labelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\services\\collaboratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\services\\collaboratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43AFA04C-90BF-4BC6-8C21-BC434170709B}|CommonLayer\\CommonLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\commonlayer\\models\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\migrations\\20240314175745_collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\migrations\\20240314175745_collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\repositorylayer\\entity\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E5B690B-7A52-4C28-B7B1-66639787FEAC}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\entity\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93804849-F166-4D6B-A684-085F999D4EA4}|FundooNoteApplication\\FundooNoteApplication.csproj|c:\\users\\ramisettylokesh\\source\\repos\\fundoonoteapplication\\fundoonoteapplication\\controllers\\labelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,7 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 30,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,19 +182,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
+              "Title": "UserUpdateModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\UserUpdateModel.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Models\\UserUpdateModel.cs",
+              "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\UserUpdateModel.cs",
+              "RelativeToolTip": "CommonLayer\\Models\\UserUpdateModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T13:06:45.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RegisterModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\RegisterModel.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\RegisterModel.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\RegisterModel.cs",
               "RelativeToolTip": "CommonLayer\\Models\\RegisterModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T10:15:13.138Z"
+              "WhenOpened": "2024-03-16T10:15:13.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "TokenModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\TokenModel.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\TokenModel.cs",
@@ -202,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\LoginModel.cs",
@@ -214,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CollaboratorController.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\FundooNoteApplication\\Controllers\\CollaboratorController.cs",
               "RelativeDocumentMoniker": "FundooNoteApplication\\Controllers\\CollaboratorController.cs",
@@ -226,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ICollaboratorBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Interfaces\\ICollaboratorBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\ICollaboratorBusiness.cs",
@@ -238,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "CollaboratorBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Services\\CollaboratorBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\CollaboratorBusiness.cs",
@@ -250,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ICollaboratorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Interfaces\\ICollaboratorRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\ICollaboratorRepository.cs",
@@ -262,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "CollaboratorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Services\\CollaboratorRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Services\\CollaboratorRepository.cs",
@@ -274,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "20240314175745_Collaborator.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Migrations\\20240314175745_Collaborator.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20240314175745_Collaborator.cs",
@@ -286,19 +304,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 12,
               "Title": "Collaborator.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Entity\\Collaborator.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\Collaborator.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Entity\\Collaborator.cs",
               "RelativeToolTip": "RepositoryLayer\\Entity\\Collaborator.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBcAAAAmAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T17:44:33.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "LabelModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\LabelModel.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\LabelModel.cs",
@@ -310,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "LabelController.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\FundooNoteApplication\\Controllers\\LabelController.cs",
               "RelativeDocumentMoniker": "FundooNoteApplication\\Controllers\\LabelController.cs",
@@ -322,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "LabelBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Services\\LabelBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\LabelBusiness.cs",
@@ -334,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ILabelBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Interfaces\\ILabelBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\ILabelBusiness.cs",
@@ -346,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ILabelRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Interfaces\\ILabelRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\ILabelRepository.cs",
@@ -358,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "LabelRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Services\\LabelRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Services\\LabelRepository.cs",
@@ -370,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "20240314084557_Label.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Migrations\\20240314084557_Label.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20240314084557_Label.cs",
@@ -382,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "UserLabelEntity.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Entity\\UserLabelEntity.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\UserLabelEntity.cs",
@@ -394,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "NoteUpdateModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\NoteUpdateModel.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\NoteUpdateModel.cs",
@@ -406,19 +424,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 5,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "RepositoryLayer\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAiwCMAAAA4AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowBMAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T12:37:26.105Z"
+              "WhenOpened": "2024-03-12T12:37:26.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\ResponseModel.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\ResponseModel.cs",
@@ -430,43 +449,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "UserBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Services\\UserBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\UserBusiness.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Services\\UserBusiness.cs",
               "RelativeToolTip": "BusinessLayer\\Services\\UserBusiness.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADUAAAAhAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T09:21:03.366Z"
+              "WhenOpened": "2024-03-12T09:21:03.366Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "IUserBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Interfaces\\IUserBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IUserBusiness.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Interfaces\\IUserBusiness.cs",
               "RelativeToolTip": "BusinessLayer\\Interfaces\\IUserBusiness.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswA0AAAAmAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvyQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T12:21:49.015Z"
+              "WhenOpened": "2024-03-12T12:21:49.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\FundooNoteApplication\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "FundooNoteApplication\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\FundooNoteApplication\\Controllers\\UserController.cs",
               "RelativeToolTip": "FundooNoteApplication\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAiwEMAAAArAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowGsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T10:33:38.881Z"
+              "WhenOpened": "2024-03-12T10:33:38.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "UserNotesModel.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\CommonLayer\\Models\\UserNotesModel.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Models\\UserNotesModel.cs",
@@ -478,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "NotesController.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\FundooNoteApplication\\Controllers\\NotesController.cs",
               "RelativeDocumentMoniker": "FundooNoteApplication\\Controllers\\NotesController.cs",
@@ -486,12 +508,11 @@
               "RelativeToolTip": "FundooNoteApplication\\Controllers\\NotesController.cs",
               "ViewState": "AQIAAHQBAAAAAAAAAAAAAIMBAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T09:22:14.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T09:22:14.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "IUserNotesBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Interfaces\\IUserNotesBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\IUserNotesBusiness.cs",
@@ -499,12 +520,11 @@
               "RelativeToolTip": "BusinessLayer\\Interfaces\\IUserNotesBusiness.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAIwCsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T09:20:51.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T09:20:51.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "UserNotesBusiness.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\BusinessLayer\\Services\\UserNotesBusiness.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\UserNotesBusiness.cs",
@@ -512,12 +532,11 @@
               "RelativeToolTip": "BusinessLayer\\Services\\UserNotesBusiness.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAAAnwGMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T09:20:18.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T09:20:18.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "IUserNotesRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Interfaces\\IUserNotesRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Interfaces\\IUserNotesRepository.cs",
@@ -525,31 +544,29 @@
               "RelativeToolTip": "RepositoryLayer\\Interfaces\\IUserNotesRepository.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAA0wCsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T09:19:15.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T09:19:15.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "UserNotesRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Services\\UserNotesRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Services\\UserNotesRepository.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Services\\UserNotesRepository.cs",
               "RelativeToolTip": "RepositoryLayer\\Services\\UserNotesRepository.cs",
-              "ViewState": "AQIAADYBAAAAAAAAAAAAACYBAAA7AAAA",
+              "ViewState": "AQIAAIsAAAAAAAAAAADwvyYBAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T09:15:07.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T09:15:07.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\FundooNoteApplication\\appsettings.json",
               "RelativeDocumentMoniker": "FundooNoteApplication\\appsettings.json",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\FundooNoteApplication\\appsettings.json",
               "RelativeToolTip": "FundooNoteApplication\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-12T09:05:43.257Z",
               "EditorCaption": ""
@@ -562,14 +579,13 @@
               "RelativeDocumentMoniker": "FundooNoteApplication\\Program.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\FundooNoteApplication\\Program.cs",
               "RelativeToolTip": "FundooNoteApplication\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAGoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T08:55:37.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T08:55:37.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Services\\ProductRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Services\\ProductRepository.cs",
@@ -581,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "20240312073804_Notes.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Migrations\\20240312073804_Notes.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20240312073804_Notes.cs",
@@ -593,20 +609,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Entity\\UserEntity.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\UserEntity.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Entity\\UserEntity.cs",
               "RelativeToolTip": "RepositoryLayer\\Entity\\UserEntity.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T07:21:02.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T07:21:02.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Entity\\Products.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\Products.cs",
@@ -618,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "20240311122628_products.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Migrations\\20240311122628_products.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Migrations\\20240311122628_products.cs",
@@ -630,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "FundooContext.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Context\\FundooContext.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Context\\FundooContext.cs",
@@ -638,30 +653,29 @@
               "RelativeToolTip": "RepositoryLayer\\Context\\FundooContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T07:14:02.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T07:14:02.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "UserNotesEntity.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Entity\\UserNotesEntity.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Entity\\UserNotesEntity.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Entity\\UserNotesEntity.cs",
               "RelativeToolTip": "RepositoryLayer\\Entity\\UserNotesEntity.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwBYAAAAvAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwBYAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T07:13:14.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Services\\UserRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Services\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Ramisettylokesh\\source\\repos\\FundooNoteApplication\\RepositoryLayer\\Services\\UserRepository.cs",
               "RelativeToolTip": "RepositoryLayer\\Services\\UserRepository.cs",
-              "ViewState": "AQIAAI4AAAAAAAAAAAAwwJUAAAAsAAAA",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAwwH8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T07:12:39.124Z",
               "EditorCaption": ""

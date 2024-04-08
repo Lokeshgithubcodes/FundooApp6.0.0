@@ -103,9 +103,9 @@ namespace FundooNoteApplication.Controllers
         [HttpPut]
         [Route("Update user By Id")]
 
-        public IActionResult CreateorUpdateUser(long id, RegisterModel updateproperties)
+        public IActionResult CreateorUpdateUser(long id, UserUpdateModel update)
         {
-            var userinfo=userBusiness.UserRegister(updateproperties);
+            var userinfo=userBusiness.UpdateUser(id, update);
             if (userinfo!=null)
             {
                 return Ok(new ResponseModel<UserEntity> { Success = true, Message = "Successfully update User info", Data = userinfo });
@@ -132,21 +132,21 @@ namespace FundooNoteApplication.Controllers
             }
         }
 
-        [HttpPost]
-        [Route("Update/Create")]
+        //[HttpPost]
+        //[Route("Update/Create")]
 
-        public IActionResult CreateorUpdateUser(RegisterModel registerModel)
-        {
-            var userinfo=userBusiness.NewUserUpdate(registerModel);
-            if (userinfo!=null)
-            {
-                return Ok(new ResponseModel<UserEntity> { Success = true, Message = "Successfully update User info", Data = userinfo });
-            }
-            else
-            {
-                return BadRequest(new ResponseModel<UserEntity> { Success = false, Message = "Invalid info" });
-            }
-        }
+        //public IActionResult CreateorUpdateUser(RegisterModel registerModel)
+        //{
+        //    var userinfo=userBusiness.NewUserUpdate(registerModel);
+        //    if (userinfo!=null)
+        //    {
+        //        return Ok(new ResponseModel<UserEntity> { Success = true, Message = "Successfully update User info", Data = userinfo });
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(new ResponseModel<UserEntity> { Success = false, Message = "Invalid info" });
+        //    }
+        //}
 
         [HttpDelete]
         [Route("delete User")]

@@ -615,24 +615,8 @@
         "IsRequired": false
       },
       {
-        "Name": "updateproperties",
-        "Type": "CommonLayer.Models.RegisterModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FundooNoteApplication.Controllers.UserController",
-    "Method": "CreateorUpdateUser",
-    "RelativePath": "api/User/Update/Create",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "registerModel",
-        "Type": "CommonLayer.Models.RegisterModel",
+        "Name": "update",
+        "Type": "CommonLayer.Models.UserUpdateModel",
         "IsRequired": true
       }
     ],

@@ -39,7 +39,7 @@ namespace BusinessLayer.Services
             return userRepo.GetAllUsers();
         }
 
-        public UserEntity UpdateUser(long id, RegisterModel updateproperties)
+        public UserEntity UpdateUser(long id, UserUpdateModel updateproperties)
         {
             return userRepo.UpdateUser(id, updateproperties);
         }
