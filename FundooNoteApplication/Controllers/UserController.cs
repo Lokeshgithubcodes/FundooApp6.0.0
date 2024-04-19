@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using RepositoryLayer.Entity;
-using RepositoryLayer.Migrations;
+
 
 namespace FundooNoteApplication.Controllers
 {
@@ -29,7 +29,6 @@ namespace FundooNoteApplication.Controllers
         [Route("register")]
         public IActionResult Register(RegisterModel model)
         {
-
             var result = userBusiness.UserRegister(model);
             if (result != null)
             {

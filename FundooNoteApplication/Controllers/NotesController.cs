@@ -10,6 +10,7 @@ using RepositoryLayer.Context;
 using RepositoryLayer.Entity;
 using System.Text;
 using Microsoft.Extensions.Caching.StackExchangeRedis;
+using System.Security.Claims;
 
 
 namespace FundooNoteApplication.Controllers
@@ -32,16 +33,20 @@ namespace FundooNoteApplication.Controllers
         [HttpPost]
         [Route("CreateNotes")]
 
-       // [Authorize]
+        [Authorize]
 
         public IActionResult UserNoteCreation(UserNotesModel userNotes)
         {
             try
             {
                 // long userId = long.Parse(User.Claims.Where(x => x.Type == "UserId").FirstOrDefault().Value);
-                byte[] userbyte = HttpContext.Session.Get("UserId");
-                long userId=BitConverter.ToInt64(userbyte, 0);
-                var result = _userNotes.CreateUserNotes(userNotes, userId);
+                //byte[] userbyte = HttpContext.Session.Get("UserId");
+
+                var userId = User.FindFirstValue("UserId");
+                //long userId = BitConverter.ToInt64(userbyte);
+                var result = _userNotes.CreateUserNotes(userNotes, int.Parse(userId));
+                //var result=_userNotes.CreateUserNotes(userNotes, userId);
+                Console.WriteLine(userId + "'''''''''''''''''''");
                 if (result != null)
                 {
                     return Ok(new ResponseModel<UserNotesEntity> { Success = true, Message = "created Notes Successfully.", Data = result });
@@ -91,7 +96,7 @@ namespace FundooNoteApplication.Controllers
             var notesInfo = _userNotes.GetAllNodes();
             if (notesInfo != null)
             {
-                return Ok(notesInfo);
+                return Ok(new {success=true, message="All notes fetched", Data=notesInfo});
             }
             else
             {
@@ -202,7 +207,7 @@ namespace FundooNoteApplication.Controllers
                 var notes = _userNotes.TrashNotes(userId, noteId);
                 if (notes != null)
                 {
-                    return Ok(notes);
+                    return Ok(new {success=true,Message="Toggled Successfully",Data=notes});
                 }
                 else
                 {

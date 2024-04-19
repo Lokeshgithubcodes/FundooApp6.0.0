@@ -13,7 +13,6 @@ using System.Security.Claims;
 using Microsoft.Extensions.Configuration;
 using System.Diagnostics;
 using MassTransit;
-using RepositoryLayer.Migrations;
 using Microsoft.Extensions.Logging;
 
 namespace RepositoryLayer.Services

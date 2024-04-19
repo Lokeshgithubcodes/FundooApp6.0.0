@@ -138,7 +138,6 @@ namespace RepositoryLayer.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("NoteId"), 1L, 1);
 
                     b.Property<string>("Color")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedAt")
@@ -149,22 +148,21 @@ namespace RepositoryLayer.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsArchive")
+                    b.Property<bool?>("IsArchive")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsPinned")
+                    b.Property<bool?>("IsPinned")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("IsTrash")
+                    b.Property<bool?>("IsTrash")
                         .HasColumnType("bit");
 
                     b.Property<DateTime>("ModifiedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("Remainder")
+                    b.Property<DateTime?>("Remainder")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Title")

@@ -26,6 +26,14 @@ builder.Services.AddEndpointsApiExplorer();
 //Redis cache
 builder.Services.AddStackExchangeRedisCache(options => { options.Configuration = builder.Configuration["RedisCacheUrl"]; });
 
+//angular login for api calling
+builder.Services.AddCors((setup) =>
+{
+    setup.AddPolicy("default", (op) =>
+    {
+        op.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+    });
+});
 
 builder.Services.AddSession(x =>
 {
@@ -137,6 +145,8 @@ if (app.Environment.IsDevelopment())
 app.UseAuthentication();
 app.UseHttpsRedirection();
 app.UseSession();
+
+app.UseCors("default");
 
 app.UseAuthorization();
 

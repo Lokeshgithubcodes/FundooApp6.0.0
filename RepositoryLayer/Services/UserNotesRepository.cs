@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Context;
 using RepositoryLayer.Entity;
 using RepositoryLayer.Interfaces;
-using RepositoryLayer.Migrations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -84,8 +83,8 @@ namespace RepositoryLayer.Services
 
         public List<UserNotesEntity> GetAllNodes()
         {
-            var nodes = new List<UserNotesEntity>();
-            nodes = fundooContext.UserNotes.ToList();
+            //var nodes = new List<UserNotesEntity>();
+             var nodes = fundooContext.UserNotes.ToList();
             return nodes;
         }
 

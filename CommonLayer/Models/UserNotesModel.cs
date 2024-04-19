@@ -10,7 +10,7 @@ namespace CommonLayer.Models
     {
         public string Title {  get; set; }
         public string Description { get; set; }
-        public string Color {  get; set; }
+        public string? Color {  get; set; }
         public DateTime Remainder { get; set; }
         public bool IsArchive {  get; set; }
         public bool IsPinned {  get; set; }
