@@ -251,7 +251,7 @@ namespace FundooNoteApplication.Controllers
                 var notes = _userNotes.AddNoteColor(userId, noteId, color);
                 if (notes != null)
                 {
-                    return Ok(notes);
+                    return Ok(new {succes=true, message="Color added succesfully ", Data=notes});
                 }
                 else
                 {
